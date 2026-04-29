@@ -16,5 +16,5 @@ jobs:
               uses: actions/checkout@v2
 
             - name: print welcome message
-              run: echo 'welcome...'            
+              run: echo 'welcome...'           
 

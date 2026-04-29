@@ -5,7 +5,7 @@ name: Run Python Program
 on:
     push:
         branches:
-            -main
+            - main
 
 jobs:
     ci-pipeline:
@@ -16,5 +16,5 @@ jobs:
               uses: actions/checkout@v2
 
             - name: print welcome message
-              run: echo 'welcome...'           
+              run: echo "welcome to github action"           
 
